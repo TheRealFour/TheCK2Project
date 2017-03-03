@@ -1,7 +1,7 @@
 blood_of_shane {
 	inherit_chance = 100
 	
-	radnom = no
+	random = no
 	
 	ai_rationality = 10
 	
@@ -11,9 +11,13 @@ blood_of_shane {
 	same_opinion = 10
 	
 	ruler_designer_cost = 10
-	}
+}
 
-blood_of_oliver
+blood_of_oliver {
+	inherit_chance = 100
+	
+	random
+}
 
 
 genius = {
