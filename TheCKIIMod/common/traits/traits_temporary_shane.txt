@@ -16,39 +16,76 @@ blood_of_shane {
 blood_of_oliver {
 	inherit_chance = 100
 	
-	random
-}
-
-
-genius = {
-	birth = 50
-	inherit_chance = 15
+	random = no
 	
-	opposites =  {
-		imbecile
-		slow
-		quick
-	}
+	ai_rationality =10
 	
-	diplomacy = 5
-	intrigue = 5
-	stewardship = 5
-	martial = 5
-	learning = 5
-	
-	combat_rating = 1
-	
-	ai_rationality = 30
+	diplomacy = 1
+	stewardship = 1
 	
 	vassal_opinion = 5
-	
-	male_compliment = COMPL_GENIUS
-	male_compliment_adj = COMPL_BRILLIANT
-	female_compliment = COMPL_GENIUS
-	female_compliment_adj = COMPL_BRILLIANT
-	child_compliment = COMPL_SMARTY
-	child_compliment_adj = COMPL_CLEVER
+	same_opinion = 10
 }
+
+blood_of_mischa {
+	inherit_chance = 100
+	
+	random = no
+	
+	ai_rationality = 10
+	
+	martial = 2
+	
+	vassal_opinion = 5
+	same_opinion = 10
+}
+
+blood_of_carlo {
+	inherit_chance = 100
+	
+	random = no
+	
+	ai_rationality = 10
+	
+	learning = 2
+	
+	vassal_opinion = 5
+	same_opinion = 10
+}
+
+blood_of_thimo {
+	inherit_chance = 100
+	
+	random = no
+	
+	ai_rationality = 10
+	
+	stewardship = 2
+	
+	vassal_opinion = 5
+	same_opinion = 10
+}
+
+blood_of_luigi {
+	inherit_chance = 100
+	
+	random = no
+	
+	ai_rationality = 10
+	
+	diplomacy = 1
+	stewardship = -2
+	martial = -1
+	
+	vassal_opinion = -8
+	same_opinion = 17
+}
+
+
+
+
+
+
 # SPECIAL TRAIT FLAGS
 #
 # pilgrimage = yes		- The character is away and will need a regent, but does not lose any wards, etc
