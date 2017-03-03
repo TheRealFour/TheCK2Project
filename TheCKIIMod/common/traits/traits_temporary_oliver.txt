@@ -1,4 +1,6 @@
-loyalist = {
+
+#Already implemented
+loyal = {
 	potential = {
 		age = 16
 	}

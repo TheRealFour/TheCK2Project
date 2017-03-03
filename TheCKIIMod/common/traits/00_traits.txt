@@ -2028,3 +2028,27 @@ siege_leader = {
 }
 
 #Starting addition of "The CK2 Project" Traits
+
+loyal = {
+	potential = {
+		age = 16
+	}
+	personality = yes
+	
+	opposites = {
+		rebellious
+		ambitious
+	}
+	
+	random = yes
+	
+	ruler_designer_cost = 5
+	
+	diplomacy = 3
+	martial = 1
+	intrigue = -2
+	
+	liege_opinion = 15
+	spouse_opinion = 10
+}
+
