@@ -2030,9 +2030,6 @@ siege_leader = {
 #Starting addition of "The CK2 Project" Traits
 
 loyal = {
-	potential = {
-		age = 16
-	}
 	personality = yes
 	
 	opposites = {

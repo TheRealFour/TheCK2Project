@@ -1,2 +1,4 @@
-loyal;Loyal;Fidèle;Loyal;;Loyal;;;;;;;;;x
-loyal_desc;This character is loyal and doesn't even think about betraying their liege;Francais;Dieser Charakter ist loyal und denkt nicht einmal im Traum daran, seinen Lehnsherrn zu verraten;;Spanish;;;;;;;;;x
+loyal;Loyal;French;Loyal;;Spanish;;;;;;;;;x
+loyal_desc;This character is loyal and doesn't even think about betraying their liege.;Francais;Dieser Charakter ist loyal und denkt nicht einmal im Traum daran, seinen Lehnsherrn zu verraten.;;Spanish;;;;;;;;;x
+rebellious;Rebellious;French;Rebellisch;;Spanish;;;;;;;;;x
+rebellious_desc;This character doesn't like to be under the command of someone.;French;Dieser Charakter steht nicht gerne an zweiter Stelle in der Hierarchie.;;Spanish;;;;;;;;;x
