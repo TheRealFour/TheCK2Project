@@ -1,0 +1,2 @@
+loyal;Loyal;Fidèle;Loyal;;Loyal;;;;;;;;;x
+loyal_desc;This character is loyal and doesn't even think about betraying their liege;Francais;Dieser Charakter ist loyal und denkt nicht einmal im Traum daran, seinen Lehnsherrn zu verraten;;Spanish;;;;;;;;;x

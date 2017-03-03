@@ -2026,3 +2026,5 @@ siege_leader = {
 		siege = 0.4
 	}
 }
+
+#Starting addition of "The CK2 Project" Traits
