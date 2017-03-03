@@ -2026,6 +2026,3 @@ siege_leader = {
 		siege = 0.4
 	}
 }
-#
-#
-# oliver
