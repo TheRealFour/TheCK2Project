@@ -25,6 +25,8 @@ blood_of_oliver {
 	
 	vassal_opinion = 5
 	same_opinion = 10
+	
+	ruler_designer_cost = 10
 }
 
 blood_of_mischa {
@@ -38,6 +40,8 @@ blood_of_mischa {
 	
 	vassal_opinion = 5
 	same_opinion = 10
+	
+	ruler_designer_cost = 10
 }
 
 blood_of_carlo {
@@ -51,6 +55,8 @@ blood_of_carlo {
 	
 	vassal_opinion = 5
 	same_opinion = 10
+	
+	ruler_designer_cost = 10
 }
 
 blood_of_thimo {
@@ -64,6 +70,8 @@ blood_of_thimo {
 	
 	vassal_opinion = 5
 	same_opinion = 10
+	
+	ruler_designer_cost = 10
 }
 
 blood_of_luigi {
@@ -71,7 +79,7 @@ blood_of_luigi {
 	
 	random = no
 	
-	ai_rationality = 10
+	ai_rationality = -10
 	
 	diplomacy = 1
 	stewardship = -2
@@ -79,11 +87,34 @@ blood_of_luigi {
 	
 	vassal_opinion = -8
 	same_opinion = 17
+	
+	ruler_designer_cost = 10
 }
 
+cringey {
+	personality = yes
+	
+	diplomacy = -1
+	
+	sex_appeal_opinion = -10
+	general_opinion = -5
+	
+	ruler_designer_cost = -5
+}
 
-
-
+funny {
+	personality = yes
+	
+	diplomacy = 2
+	intrigue = 1
+	
+	fertility = 10
+	
+	sex_appeal_opinion = 10
+	general_opinion = 5
+	
+	ruler_designer_cost = 5
+}
 
 
 # SPECIAL TRAIT FLAGS
