@@ -2029,6 +2029,8 @@ siege_leader = {
 
 #Starting addition of "The CK2 Project" Traits
 
+#LOYAL 1.0
+
 loyal = {
 	personality = yes
 	

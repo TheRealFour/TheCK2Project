@@ -2080,8 +2080,28 @@ siege_leader = {
 #	
 #	health = 		-x.xx / x.xx
 #	fertility = 	-x.xx / x.xx
+#
+#	monthly_character_piety = -x.xx / x.xx
+#	monthly_character_prestige = -x.xx / x.xx
 #	
 #	combat_rating = -x / x
+#	command_modifier = {
+#		morale_offence
+#		morale_defence
+#		defence
+#		damage
+#		retreat
+#		siege
+#		speed
+#		pursue
+#		random
+#		center
+#		flank
+#		light_infantry
+#		heavy_infantry
+#		cavalry
+#		
+#	}
 #	
 ###########################################################
 # Add the opinion modifers (do not add if not necessary): #
@@ -2135,7 +2155,7 @@ siege_leader = {
 #
 #
 #
-#Already implemented: LOYAL
+#LOYAL 1.1
 
 loyal = {
 	personality = yes
@@ -2155,9 +2175,12 @@ loyal = {
 	
 	liege_opinion = 15
 	spouse_opinion = 10
+	
+	ai_ambition = -20
+	ai_honor = 10
 }
 
-#Already implemented: REBELLIOUS
+#REBELLIOUS 1.1
 
 rebellious = {
 	personality = yes
@@ -2178,9 +2201,13 @@ rebellious = {
 	learning = 1
 	
 	liege_opinion = -15
+	ambition_opinion = -25
+	
+	ai_ambition = 20
+	ai_greed = 10
 }
 
-#in progress: CRINGEY
+#CRINGEY 1.0
 cringey = {
 	personality = yes
 	
@@ -2188,10 +2215,21 @@ cringey = {
 		funny
 	}
 	
+	diplomacy = -1
+	
+	sex_appeal_opinion = -10
+	general_opinion = -5
+	
 	random = yes
 	
 	ruler_designer_cost = -2
-	
-	
 }
 
+#FUNNY 1.0
+funny = {
+	personality = yes
+	
+	opposites = {
+		cringey
+	}
+}
