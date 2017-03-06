@@ -2029,6 +2029,112 @@ siege_leader = {
 
 #Starting addition of "The CK2 Project" Traits
 
+#Example = {
+#
+#################################################
+# Here you can define what kind of trait it is: #
+#################################################
+#
+#	personality / leader / lifestyle / education = yes
+#
+#	# CONGENITAL Specifications: 
+#
+# 	inherit_chance = x							- Chance of passing on the trait to children
+# 	birth = x (100 = 1%)						- How many characters out of 10000 are born with this trait (when not inherited)
+#	both_parent_has_trait_inherit_chance = x	- Chance of passing on the trait to children if both parents have it
+#
+#	inbred = yes								- If parents are blood-related, there's a higher chance of getting it.
+#
+###################################################################################
+# Now define the opposites (that means a character can't have both those traits): #
+###################################################################################
+#
+#	opposites = {
+#		not_an_example
+#		another_example
+#	}
+#
+##############################################################
+# Define if randomly created characters can have this trait: #
+##############################################################
+#
+#	random = yes / no
+#
+#########################################
+# Define the Ruler Designer (DLC) Cost: #
+#########################################
+#
+#	ruler_designer_cost = -x / 0 / x
+#
+#	customizer = no 	- This means that the trait will be invisible in the Ruler Designer
+#
+##############################
+# Add the stats-multipliers: #
+##############################
+#
+#	diplomacy = 	-x / x
+#	martial =		-x / x
+#	stewardship = 	-x / x
+#	intrigue =		-x / x
+#	learning = 		-x / x
+#	
+#	health = 		-x.xx / x.xx
+#	fertility = 	-x.xx / x.xx
+#	
+#	combat_rating = -x / x
+#	
+###########################################################
+# Add the opinion modifers (do not add if not necessary): #
+###########################################################
+#
+#	name								-x / x			negative		| positive
+#```````````````````````````````````````````````````````````````````````|```````````````````````#
+#	general_opinion = 					-x / x			leper 			| ?						#
+#	liege_opinion = 					-x / x			envious 		| content				#
+#	spouse_opinion = 					-x / x			? 				| pregnant				#
+#	opposite_opinion = 					-x / x			brave 			| ?						#
+#	same_opinion =						-x / x			ambitious 		| bastard				#
+#	same_religion_opinion = 			-x / x			excommunicated 	| ?						#
+#	same_opinion_if_same_religion = 	-x / x			? 				| zealous & crusader	#
+#	tribal_opinion =					-x / x			weak 			| strong				#
+#	vassal_opinion =					-x / x			inbred 			| genius				#
+#	church_opinion =					-x / x			greedy 			| charitable			#
+#	christian_church_opinion =			-x / x			lustful 		| chaste				#
+#	sex_appeal_opinion =				-x / x			weak 			| strong				#
+#	dynasty_opinion =					-x / x			kinslayer 		| ?						#
+#	ambition_opinion =					-x / x			ambitious 		| ?						#
+#	infidel_opinion =					-x / x			zealous 		| ?						#
+#	(twin_opinion) =					-x / x			? 				| twin					#
+#```````````````````````````````````````````````````````````````````````````````````````````````#
+#
+###################
+# Configure AI:   #
+###################
+#
+#	ai_ambition			Sets how hungry for power the character is
+#	ai_greed			Sets how hungry for gold the character is
+#	ai_honor			Sets how honorable the character is
+#	ai_rationality		Sets how stupid or intelligent the character is
+#	ai_zeal				Sets how much he loves the church / hates infidels
+#
+#################
+#	Special: 	#
+#################
+#
+#	immortal = yes 			Characters cannot die naturally
+#	Incapacitating = yes	Character needs a regent
+#	tolerates_<religion_group>		christian
+#									jewish_group
+#									muslim
+#									pagan_group
+#									zoroastrian_group
+#									indian_group
+#	
+#	# 
+#}
+#
+#
+#
 #Already implemented: LOYAL
 
 loyal = {
@@ -2051,7 +2157,7 @@ loyal = {
 	spouse_opinion = 10
 }
 
-#In progress: REBELLIOUS
+#Already implemented: REBELLIOUS
 
 rebellious = {
 	personality = yes
@@ -2074,5 +2180,18 @@ rebellious = {
 	liege_opinion = -15
 }
 
-
+#in progress: CRINGEY
+cringey = {
+	personality = yes
+	
+	opposites = {
+		funny
+	}
+	
+	random = yes
+	
+	ruler_designer_cost = -2
+	
+	
+}
 
